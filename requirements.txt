@@ -1,0 +1,12 @@
+langchain==0.1.0
+langchain-openai==0.0.5
+langchain-postgres==0.0.1
+langgraph==0.0.10
+pydantic==2.5.3
+pydantic-settings==2.1.0
+confluent-kafka==2.3.0
+grpcio==1.60.0
+grpcio-tools==1.60.0
+psycopg2-binary==2.9.9
+pgvector==0.2.4
+python-dotenv==1.0.0
