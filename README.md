@@ -105,7 +105,7 @@ SynapseNet is built on a highly modular, three-tier architecture designed for ho
 ### 1. Repository Initialization
 
 ```bash
-git clone [https://github.com/your-username/synapsenet.git](https://github.com/your-username/synapsenet.git)
+git clone [https://github.com/hq969/synapsenet.git](https://github.com/hq969/synapsenet.git)
 cd synapsenet
 
 ```
