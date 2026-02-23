@@ -1,0 +1,18 @@
+syntax = "proto3";
+package synapsenet;
+
+message AgentRequest {
+    string task_id = 1;
+    string original_query = 2;
+    string context_payload = 3; 
+}
+
+message AgentResponse {
+    string agent_id = 1;
+    string content = 2;
+    string status = 3;
+}
+
+service SynapseAgentNode {
+    rpc ProcessTask (AgentRequest) returns (AgentResponse);
+}
